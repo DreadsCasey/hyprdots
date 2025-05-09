@@ -1,0 +1,5 @@
+[Added Associations]
+text/plain=sublime_text-3.desktop;sublime_text-2.desktop;subl.desktop;
+
+[Default Applications]
+text/plain=sublime_text-3.desktop;

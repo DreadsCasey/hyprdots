@@ -1,0 +1,75 @@
+* {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 13px;
+  min-height: 0;
+  border: none;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+#waybar{
+  border-bottom: 1px solid #1793d0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+window#waybar {
+  background-color: #232629;
+  color: #eff0f1;
+  /*border-bottom: 1px solid #3a3f44;*/
+}
+
+#clock{
+  font-size: 15px;
+}
+#cpu,
+#custom-gpu {
+  padding: 0 0px;
+  color: #eff0f1;
+}
+
+#custom-shutdown,
+#custom-restart,
+#custom-logout {
+  padding: 0 10px;
+  color: #eff0f1;
+  font-size: 20px;
+}
+
+#custom-shutdown:hover,
+#custom-restart:hover,
+#custom-logout:hover {
+  background-color: #8e0010;
+  border-bottom: 1px solid #1793d0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#clock:hover,
+#cpu:hover,
+#custom-gpu:hover{}
+
+#workspaces {
+  padding: 0 0px;
+}
+
+#workspaces button {
+  padding: 0 20px;
+  color: #aaaaaa;
+  background: transparent;
+  border: none;
+  font-weight: bold;
+}
+
+#workspaces button.active {
+  color: #ffffff;
+  background: #3a3f44;
+  border-bottom: 1px solid #1793d0;
+  border-top: 1px solid #1793d0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#workspaces button:hover {
+  background: #4f5b62;
+  color: #ffffff;
+  border-bottom: 1px solid #1793d0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,5 @@
+[
+  { "name": " Shutdown", "cmd": "systemctl poweroff" },
+  { "name": " Reboot", "cmd": "systemctl reboot" },
+  { "name": " Logout", "cmd": "hyprctl dispatch exit" }
+]

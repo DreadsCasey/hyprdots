@@ -1,0 +1,68 @@
+// TODO
+// Add sound control
+// 
+// Add networkign status (maybe network info as well)
+
+{
+    "layer": "top",
+    "position": "top",
+    "mod": "dock",
+    "height": 30,
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+
+  "modules-left": [
+    "hyprland/workspaces"
+  ],
+
+  "modules-center": [
+        "clock"
+    ],
+
+  "modules-right": [
+    "custom/logout",
+    "custom/restart",
+    "custom/shutdown"
+  ],
+
+
+/// MODULES //
+
+  "custom/shutdown": {
+    "format": "",
+    "tooltip": "Shutdown",
+    "on-click": "systemctl poweroff",
+    "interval": 9999999
+  },
+  "custom/restart": {
+    "format": "",
+    "tooltip": "Reboot",
+    "on-click": "systemctl reboot",
+    "interval": 9999999
+  },
+  "custom/logout": {
+    "format": "",
+    "tooltip": "Logout",
+    "on-click": "hyprctl dispatch exit",
+    "interval": 9999999
+  },
+
+  "cpu": {
+    "format": "CPU: {usage}%",
+    "tooltip": true
+  },
+
+  "custom/gpu": {
+    "format": "GPU: {}",
+    "exec": "sensors | grep -m 1 'edge' | awk '{print $2}'",
+    "interval": 5,
+    "return-type": "text",
+    "tooltip": false
+  },
+
+  "clock": {
+    "format": "{:%a %Y-%m-%d %H:%M:%S}",
+    "interval": 1
+  }
+}

@@ -1,0 +1,29 @@
+window {
+  background-color: #232629;
+  border-radius: 6px;
+  border: 1px solid #3a3f44;
+}
+
+#main {
+  padding: 5px;
+}
+
+#entry {
+  padding: 6px 12px;
+  color: #eff0f1;
+  background: transparent;
+}
+
+#entry:selected {
+  background-color: #31363b;
+  color: #ffffff;
+}
+
+#main:hover {
+  background-color: #31363b;
+  color: #ffffff;
+}
+#entry:hover {
+  background-color: #31363b;
+  color: #ffffff;
+}

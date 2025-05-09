@@ -1,0 +1,83 @@
+{
+    "$id": 0,
+    "$type": "0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.HashSet`1[[System.String, mscorlib]], System.Core]], mscorlib",
+    "comparer": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.GenericEqualityComparer`1[[System.String, mscorlib]], mscorlib"
+    },
+    "$rlength": 6,
+    "$rcontent": [
+        {
+            "$k": "001",
+            "$v": {
+                "$id": 2,
+                "$type": "2|System.Collections.Generic.HashSet`1[[System.String, mscorlib]], System.Core",
+                "$rlength": 1,
+                "$rcontent": [
+                    "fa650e2b6a5a0fb8cc1b87a1997cacb7"
+                ]
+            }
+        },
+        {
+            "$k": "004",
+            "$v": {
+                "$id": 3,
+                "$type": 2,
+                "$rlength": 1,
+                "$rcontent": [
+                    "5169c39c7fcd47627722df8e029700fe"
+                ]
+            }
+        },
+        {
+            "$k": "010",
+            "$v": {
+                "$id": 4,
+                "$type": 2,
+                "$rlength": 2,
+                "$rcontent": [
+                    "ab02719c77ed6c3f8f8962fdfebd21b1",
+                    "4541155df88cc810088498b97421f913"
+                ]
+            }
+        },
+        {
+            "$k": "009",
+            "$v": {
+                "$id": 5,
+                "$type": 2,
+                "$rlength": 1,
+                "$rcontent": [
+                    "7f93946f47517ac4ca8002cab28594b5"
+                ]
+            }
+        },
+        {
+            "$k": "011",
+            "$v": {
+                "$id": 6,
+                "$type": 2,
+                "$rlength": 3,
+                "$rcontent": [
+                    "17bf94a4a62a4fab081980f94d1526dc",
+                    "4de2a14c3311050863042337d15d58a5",
+                    "f3bd648a3315e39477cd02201312d16d"
+                ]
+            }
+        },
+        {
+            "$k": "013",
+            "$v": {
+                "$id": 7,
+                "$type": 2,
+                "$rlength": 4,
+                "$rcontent": [
+                    "0757d738ea64da7b954a815d0b985bbf",
+                    "1571f30c30fbc6e8bcf050eb8985e303",
+                    "be3ebee500f3c4a8b0e91d9aca95fe59",
+                    "2c41d0ed23aac1a049ee59cd17e8871a"
+                ]
+            }
+        }
+    ]
+}
