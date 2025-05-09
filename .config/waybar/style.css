@@ -29,7 +29,8 @@ window#waybar {
 
 #custom-shutdown,
 #custom-restart,
-#custom-logout {
+#custom-logout,
+#custom-netstatus {
   padding: 0 10px;
   color: #eff0f1;
   font-size: 20px;
@@ -73,3 +74,4 @@ window#waybar {
   border-bottom: 1px solid #1793d0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+

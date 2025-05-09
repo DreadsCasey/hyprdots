@@ -21,6 +21,7 @@
     ],
 
   "modules-right": [
+    "custom/netstatus",
     "custom/logout",
     "custom/restart",
     "custom/shutdown"
@@ -28,6 +29,13 @@
 
 
 /// MODULES //
+
+"custom/netstatus": {
+  "exec": "~/.config/hypr/scripts/netstatus.sh",
+  "interval": 5,
+  "tooltip": false,
+  "return-type": "json"
+},
 
   "custom/shutdown": {
     "format": "",
