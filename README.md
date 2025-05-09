@@ -1,0 +1,2 @@
+# hyprdots
+dotfiles for hyprland
